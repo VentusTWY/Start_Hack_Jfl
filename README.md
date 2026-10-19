@@ -1,8 +1,12 @@
 # Start_Hack_Jfl
 
-**JFL Solar** is our START Hack 2023 project. We were the top team in the Energy category of the Google track.
+**Solar Savings Map** (JFL Solar) is our START Hack 2023 project in St. Gallen. We were the top team in the Energy category of the Google track.
 
-The app puts the solar power potential of anywhere on Earth onto Google Maps, next to what electricity costs there.
+The app opens on a 3D globe built with three.js. You pick a spot on Google Maps, enter your roof area and panel coverage, and it pulls solar irradiance from NASA's POWER API to show daily and yearly output, yearly savings and lifetime net savings in EUR over 25 years.
+
+![3D globe landing page](media/globe.jpg)
+
+The final version of the app is on the [`globe-integration` branch of naseweisssss/Start_Hack_Jfl](https://github.com/naseweisssss/Start_Hack_Jfl/tree/globe-integration). This fork has the earlier work, including the solar potential layer below.
 
 ![Solar potential layer](media/solar-world.jpg)
 
